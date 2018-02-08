@@ -1,0 +1,116 @@
+#mainContainer {
+  position: relative;
+  width: 900px;
+  height: 600px;
+
+}
+
+#Videos-WEBplayer {
+
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 640px;
+  height: 360px;
+
+}
+
+#videoContent-WEBplayer {
+
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+
+}
+
+#playButton {
+  margin-top:10px;
+  vertical-align: top;
+  width: 350px;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2c3e50;
+  border: 0;
+  border-bottom: 2px solid #22303f;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #22303f;
+  box-shadow: inset 0 -2px #22303f;
+}
+
+
+#video-player-wrapper  {
+  height: 18px;
+  overflow: hidden;
+  z-index: 20;
+  width: 100%;
+}
+
+#WEBplayer-adContainer{  position: absolute;
+  /*  top: 80px;
+        left: 50%;
+          border: 1px solid red;
+               display: block;
+               background: #FFF;
+  */
+  z-index: 2147483647;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+
+#ButtonSkapads {
+  background-color: #6b9da754;
+  background-repeat:no-repeat;
+
+
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  z-index: 2147483647;
+
+  position: absolute;
+  bottom: 15%;
+  right: 5px;
+  width: 15%;
+  height: 15%;
+  border: 3px solid #00d5cc;
+
+}
+#Ads-Skip854564 {
+  font-style: normal;
+  font-size: 120%;
+
+}
+#progressTimeAdsAllShowFor
+{
+  background: #6b9da754;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 2%;
+  z-index: 2147483647;
+}
+#TextAds-Ads1111595Txt {
+
+
+
+  background: #6b9da754;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 20%;
+  height: 10%;
+  z-index: 2147483647;
+
+}
